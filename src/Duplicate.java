@@ -22,8 +22,13 @@ public class Duplicate {
 
         Set<Character> key = countMap.keySet();
         for (Character character : key) {
-            if (countMap.get(character) > 1) {
+            if (countMap.get(character) > 1 && !str.isEmpty()) {
                 System.out.println(character + " -> " + countMap.get(character));
+            }
+
+            else{
+                System.out.println("Duplicate");
+                break;
             }
         }
 

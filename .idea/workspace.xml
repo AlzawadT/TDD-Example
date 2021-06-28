@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="662db02e-d54d-49c4-8217-528257c63cdf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DuplcateStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DuplicateString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Duplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Duplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DuplicateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +16,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/AlzawadT/TDD-Example.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1uZnsdZYPYZnjtXRG8deahRVgmd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -39,6 +48,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
@@ -48,22 +58,53 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuplicateTest">
-    <configuration name="DuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.DuplicateString">
+    <configuration name="DuplicateString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DuplicateString" />
       <module name="TDDExample" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateTest.givenAString_whenOneDuplicate_printCountTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DuplcateStringTest.givenString_PrintMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DuplcateStringTest" />
+      <option name="METHOD_NAME" value="givenString_PrintMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplcateStringTest.testCheckSignShouldReturnPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DuplcateStringTest" />
+      <option name="METHOD_NAME" value="testCheckSignShouldReturnPositive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateTest.givenString_whenNoDuplicate_returnMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDExample" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
-      <option name="METHOD_NAME" value="givenAString_whenOneDuplicate_printCountTwo" />
+      <option name="METHOD_NAME" value="givenString_whenNoDuplicate_returnMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateTest.givenString_whenNoDuplicate_returnNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDExample" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
+      <option name="METHOD_NAME" value="givenString_whenNoDuplicate_returnNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,8 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DuplicateTest" />
-        <item itemvalue="JUnit.DuplicateTest.givenAString_whenOneDuplicate_printCountTwo" />
+        <item itemvalue="Application.DuplicateString" />
+        <item itemvalue="JUnit.DuplicateTest.givenString_whenNoDuplicate_returnMessage" />
+        <item itemvalue="JUnit.DuplcateStringTest.givenString_PrintMessage" />
+        <item itemvalue="JUnit.DuplcateStringTest.testCheckSignShouldReturnPositive" />
+        <item itemvalue="JUnit.DuplicateTest.givenString_whenNoDuplicate_returnNull" />
       </list>
     </recent_temporary>
   </component>
@@ -87,25 +131,52 @@
       <option name="presentableId" value="Default" />
       <updated>1624882186485</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test Case">
+      <created>1624884088828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624884088828</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test Case" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Case" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1624883990405">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1624884087357">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624883990405" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1624883990405">
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1624884087357" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1624888717498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624883990405" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1624883990405">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1624888717498" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1624888717498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624883990405" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1624883990405">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1624888717498" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1624888717498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624883990405" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1624888717498" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1624888717498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1624888717498" />
     <state x="387" y="258" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1624882283740">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -114,5 +185,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="454" y="68" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1624882214809" />
+    <state x="413" y="120" key="extract.method.dialog" timestamp="1624887407722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="120" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1624887407722" />
   </component>
 </project>

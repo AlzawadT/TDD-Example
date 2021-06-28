@@ -33,5 +33,12 @@ public class DuplicateTest {
         assertThat(result.get('t'), nullValue());
     }
 
+    @Test
+    public void givenString_whenNoDuplicate_returnMessage() {
+        Map<Character, Integer> result = builder.countDuplicate(" ");
+
+        assertThat(result.get('t'), nullValue());
+    }
+
 
 }
