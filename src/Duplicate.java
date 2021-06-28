@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 public class Duplicate {
 
@@ -13,13 +14,18 @@ public class Duplicate {
                 int currentCount = countMap.get(character) + 1;
                 countMap.put(character,currentCount);
 
-                System.out.println(character + " -> "+ currentCount);
             }
             else{
                 countMap.put(character,1);
             }
         }
 
+        Set<Character> key = countMap.keySet();
+        for (Character character : key) {
+            if (countMap.get(character) > 1) {
+                System.out.println(character + " -> " + countMap.get(character));
+            }
+        }
 
         return countMap;
     }
